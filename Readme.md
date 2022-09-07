@@ -12,9 +12,9 @@
 
 ### Mirrors aktualisieren (reflector)
 	reflector -c Germany -a 6 --sort rate --save /etc/pacman.d/mirrorlist
-###Datenbank refresh
+### Datenbank refresh
 	pacman -Syy
-###Partitionierungstools starten
+### Partitionierungstools starten
 	cfdisk /dev/sda
  gpt Partitionstabelle erstellen 
  1. 300>> EFI >> EFI System
