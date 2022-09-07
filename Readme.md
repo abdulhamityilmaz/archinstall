@@ -22,10 +22,16 @@
  3. 30GB >> / >> LinuxFileSystem 
  4. Rest >> /home >> LinuxFileSystem
  5. Write >> Quit
+### List Block
  	lslblk
 ### Partitionsformat
-	mkfs.fat -F32 /dev/sda1 
+#### EFI Format
+	mkfs.fat -F32 /dev/sda1
+#### SWAP FOrmat 
 	mkswap /dev/sda2
+#### SWAP aktivieren
 	swapon /dev/sda2
-	mkfs.ext4 /dev/sda3 
+#### Root Format ext4
+	mkfs.ext4 /dev/sda3
+#### /home Format ext4 
 	mkfs.ext4 /dev/sda4
