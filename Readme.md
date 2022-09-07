@@ -3,5 +3,5 @@
 ## Tastatur Layout
 	'Loadkeys de-latin1 '
 ## erstes Bild
- ![Alt-text](home/hamit/git_repository.png)
+ ![Alt-text](bilder/git_repository.png)
 
